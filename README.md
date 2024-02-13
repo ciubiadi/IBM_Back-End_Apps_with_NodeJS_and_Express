@@ -50,7 +50,7 @@ In this final project, I built a server-side online book review application and 
 ***Task 9***: Delete book review added by that particular user - 2 Points
 
 ### Async Node.JS program:
-__Use Async/Await or Promises with Axios in Node.js for all the four methods.__
+**Use Async/Await or Promises with Axios in Node.js for all the four methods.**
 
 ***Task 10***: Get all books – Using async callback function – 2 Points
 
