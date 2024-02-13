@@ -3,7 +3,7 @@ Express Best Practices.
 * Best practiices when developing RESTfuil APIs include:
     - Use a noun as a resource identifier
     - Use HTTP status codes correctly
-    - Black-box test REST APIs using SuperTest
+    - Black-box test REST APIs using SuperTest. Black box testing, a form of testing that is performed with no knowledge of a system's internals, can be carried out to evaluate the functionality, security, performance, and other aspects of an application. Dynamic code analysis is an example of automated black box security testing.
     - Use JWT-based stateless authentication
     - Include good documentation ( for APIs especially)
 * Other tips include:
