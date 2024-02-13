@@ -22,14 +22,14 @@ In the notes.txt file I wrote my notes regarding the main intakes and insights o
 * Core modules offer minimal functionality, local modules are application-specific creations, and third-party modules are community-developed.
 * A local installation restricts package access to the installed directory, while a global installation grants package access to any machine application.
 
-### Module 2 Recap:
+### Module 2 Overview:
 * Asynchronous network operations employ callback functions to prevent blocking JavaScript code.
 * Callback functions must invoke another callback to relay a message from the Node.js module to the main application after receiving a response.
 * Nested callbacks, although effective, can pose challenges in readability and debugging. Inversion of control raises trust concerns in dealing with third-party code.
 * Promise objects prove most beneficial for time-consuming operations that can block resources.
 * JSON.parse() and JSON.stringify() are essential methods for parsing JSON objects.
 
-### Module 3 Summary:
+### Module 3 Overview:
 * Developers leverage third-party packages to extend Node.js functionality.
 * The npm application is the tool for managing Node.js packages within your framework installation.
 * The MVC architecture segregates the back-end application into the model, view, and controller components.
