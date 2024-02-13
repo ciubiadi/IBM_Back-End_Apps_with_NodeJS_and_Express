@@ -1,0 +1,11 @@
+Express Best Practices.
+* Use a directory structure in both an Express.js application and an API that includes node_modules/ config/, models/, and routes/ folders
+* Best practiices when developing RESTfuil APIs include:
+    - Use a noun as a resource identifier
+    - Use HTTP status codes correctly
+    - Black-box test REST APIs using SuperTest
+    - Use JWT-based stateless authentication
+    - Include good documentation ( for APIs especially)
+* Other tips include:
+    - Following capitalization conventions
+    - Use config files for variables and group similar functioning routes into their own files
