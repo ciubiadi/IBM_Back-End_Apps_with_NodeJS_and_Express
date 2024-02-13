@@ -57,12 +57,11 @@ What I liked:
 - It provided usefull information about Node.js Modules concept
 - It exaplined very well the Asynchronous I/O with Callback Programming: this topic covered the way that Node.js works in a non-blocking manner. 
 - It showed how Node.js framework receives an HTTP response message from the remote server and it calls the callback function and handles the Http response message.
-
 - It emphatised how callbacks work
 - They provided amazing Glossaries and Cheatsheets with key concepts and essential/fundamental operations/structures of code
 - Very well built Practice Quizes and Graded Quizes which cover very well the provided knowledge and test your logic behind.
 - They explained Routing, Middleware, Routers and Templating in a simple manner but covered the concepts in depth
-- they covered Authentication and Authorization handling in NodeJS
+- They covered Authentication and Authorization handling in NodeJS
 
 - It provided insights and viewpoints of experts( like James Reeve and Daniel Rudnitski who are Full Stack Software Engineers at IBM ) regarding: 
 * Server-Side JavaScript and Node.js, 
