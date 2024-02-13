@@ -22,7 +22,6 @@ var/
 wheels/
 pip-wheel-metadata/
 share/python-wheels/
-node_mnodules/
 *.egg-info/
 .installed.cfg
 *.egg
@@ -128,3 +127,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+node_modules/
