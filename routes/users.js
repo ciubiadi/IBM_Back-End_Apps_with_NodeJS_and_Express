@@ -23,6 +23,11 @@ let users = [
     },
 ];
 
+const getDateFromString = (strDate) => {
+  let [dd,mm,yyyy] = strDate.split('-')
+  return new Date(yyyy+"/"+mm+"/"+dd);
+}
+
 // GET request: Retrieve all users
 router.get("/",(req,res)=>{
   res.send(JSON.stringify({users}, null, 4));
@@ -33,6 +38,25 @@ router.get("/:email",(req,res)=>{
   res.send(users.filter(user => user.email === req.params.email));
 });
 
+// GET request: Get all users with particular Last Name
+router.get("/all/:lastName", (req, res) => {
+  let filteredUsers = users.filter(user => user.lastName === req.params.lastName);
+  if(filteredUsers.length > 0){
+    res.send(JSON.stringify(filteredUsers, null, 4));
+  } else {
+    res.send(`No users with Lastname ${req.params.lastName} found!`);
+  }
+})
+
+// GET request: Sort bu Date of Birth
+router.get("/sort/:DOB", (req, res)=>{
+  let sorted_users=users.sort(function(a, b) {
+    let d1 = getDateFromString(a.DOB);
+    let d2 = getDateFromString(b.DOB);
+      return d1-d2;
+  });
+  res.send(JSON.stringify(sorted_users, null, 4));
+});
 
 // POST request: Create a new user
 router.post("/",(req,res)=>{
