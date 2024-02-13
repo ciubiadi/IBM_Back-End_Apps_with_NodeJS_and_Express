@@ -16,8 +16,12 @@ router.get("/",(req,res)=>{
 
 // GET by specific ID request: Retrieve a single friend with email ID
 router.get("/:email",(req,res)=>{
-  // Update the code here
-  res.send("Yet to be implemented")//This line is to be replaced with actual return value
+  const givenEmail = req.params.email;
+  if(friends[givenEmail]){
+    res.send(friends[givenEmail]);
+  } else {
+    res.send("No user with the given email was found!");
+  }
 });
 
 
