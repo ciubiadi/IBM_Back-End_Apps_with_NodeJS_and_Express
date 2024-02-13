@@ -51,7 +51,7 @@ Express Best Practices.
     - Following capitalization conventions
     - Use config files for variables and group similar functioning routes into their own files
 
-What I liked:
+What I loved about this course :
 - It explained components of the back end of a web application
 - It highlighted the importance of a robust, scalable back end 
 - It provided usefull information about Node.js Modules concept
